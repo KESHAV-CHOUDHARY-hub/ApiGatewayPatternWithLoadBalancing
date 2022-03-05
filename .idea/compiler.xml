@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demoGateway" />
+        <module name="demoEureka" />
+        <module name="student" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demoEureka" target="11" />
+      <module name="demoGateway" target="11" />
+      <module name="student" target="11" />
+      <module name="subject" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demoEureka" options="-parameters" />
+      <module name="demoGateway" options="-parameters" />
+      <module name="student" options="-parameters" />
+      <module name="subject" options="-parameters" />
+    </option>
+  </component>
+</project>

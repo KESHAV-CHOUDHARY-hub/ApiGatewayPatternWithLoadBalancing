@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GATEWAY,LOADBALANCING,FEIGNCLIENT, DEMO.iml" filepath="$PROJECT_DIR$/.idea/GATEWAY,LOADBALANCING,FEIGNCLIENT, DEMO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoEureka/demoEureka.iml" filepath="$PROJECT_DIR$/demoEureka/demoEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoGateway/demoGateway.iml" filepath="$PROJECT_DIR$/demoGateway/demoGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student/student.iml" filepath="$PROJECT_DIR$/student/student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subject/subject.iml" filepath="$PROJECT_DIR$/subject/subject.iml" />
+    </modules>
+  </component>
+</project>
